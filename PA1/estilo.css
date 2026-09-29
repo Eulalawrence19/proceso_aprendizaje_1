@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("imagenes/fondo.jpg");
+    margin: 0;
+    padding: 20px;
+}
+
+.contenedor-principal {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.titulo-web {
+    text-align: right;
+}
+
+.titulo-web h1 {
+    color: #149ac2;
+}
+
+hr {
+    border: 1px solid gray;
+}
+
+h2 {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.tarjetas-lenguajes {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.tarjeta {
+    width: 30%;
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.tarjeta h3 {
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.tarjeta-html h3 {
+    background-color: orangered;
+}
+
+.tarjeta-css h3 {
+    background-color: dodgerblue;
+}
+
+.tarjeta-js h3 {
+    background-color: green;
+}
+
+.imagen-lenguaje {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.tarjetas-analogia {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.tarjeta-analogia {
+    width: 30%;
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.analogia-html {
+    background-color: #ffe9e0;
+}
+
+.analogia-css {
+    background-color: #e4f2ff;
+}
+
+.analogia-js {
+    background-color: #edf7df;
+}
+
+.imagen-casa {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.casa {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px gray;
+}
+
+
+.caja-resumen {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
